@@ -1,0 +1,5 @@
+git status
+git add .
+git commit -m ""
+git push -u origin master
+git config --global alias.     (git config --global alias.st status)

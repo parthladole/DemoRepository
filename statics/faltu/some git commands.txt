@@ -1,0 +1,6 @@
+git status
+git add .
+git commit -m ""
+git push -u origin master
+git merge tryCleanup --allow-unrelated-histories
+git commit -a -m "made changes to dropdown"
