@@ -4,3 +4,11 @@ git commit -m ""
 git push -u origin master
 git merge tryCleanup --allow-unrelated-histories
 git commit -a -m "made changes to dropdown"
+
+git checkout -b name_of_new_branch
+git checkout name_of_Branch_where_we_want_to_go
+git branch -v
+git branch --merged
+git branch --no-merged
+git branch -d name_of_branch  to delete merged branch
+git branch -D name_of_branch  to delete any branch
